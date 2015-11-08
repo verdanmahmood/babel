@@ -370,7 +370,7 @@ class Locale(object):
                 details.append(locale.variants.get(self.variant))
             details = filter(None, details)
             if details:
-                retval += ' (%s)' % u', '.join(details)
+                retval += ' (%s)' % ', '.join(details)
         return retval
 
     display_name = property(get_display_name, doc="""\
