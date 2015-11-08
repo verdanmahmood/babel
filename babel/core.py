@@ -11,7 +11,7 @@
 
 import os
 
-from babel import localedata
+import localedata
 from babel._compat import pickle, string_types
 from babel.plural import PluralRule
 
