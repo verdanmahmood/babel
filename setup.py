@@ -54,8 +54,8 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    packages=['babel', 'babel.messages', 'babel.localtime'],
-    package_data={'babel': ['global.dat', 'localedata/*.dat']},
+    packages=['babel', 'babel.messages', 'babel.localtime', 'babel.localedata'],
+    package_data={'babel': ['global.dat']},
     install_requires=[
         # This version identifier is currently necessary as
         # pytz otherwise does not install on pip 1.4 or
